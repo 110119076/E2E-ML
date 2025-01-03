@@ -1,0 +1,13 @@
+COLUMNS:
+  batting_team: object
+  bowling_team: object
+  city: object
+  runs_left: int64
+  balls_left: int64
+  wickets: int32
+  total_runs_x: int64
+  crr: float64
+  rrr: float64
+
+TARGET_COLUMNS:
+  result: int64
